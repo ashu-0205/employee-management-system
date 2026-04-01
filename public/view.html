@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 align="center">EMPLOYEE LIST</h2>
+
+<table border="1" width="50%" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr bgcolor="#4CAF50">
+      <th>ID</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Phone no</th>
+      <th>Address</th>
+      <th>Designation</th>
+      <th>Salary</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="table" align="center"></tbody>
+</table>
+
+<br><br>
+
+<div align="center">
+  <button onclick="goBack()">Back</button>
+</div>
+
+<script src="script.js"></script>
+<script>
+  loadData();
+</script>
+
+</body>
+</html>
